@@ -34,6 +34,7 @@
 		CA4500DDF853484B13E57658EFCFBEBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D33426F71427F4B2F5CA6819CA32B7E5 /* Pods-UMKJWorking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A13BEB4DC5BB1ABF0C81E53B3A7E9C5B /* Pods-UMKJWorking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7693A7722438DAC00ED8FC1 /* QCKJLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7693A7622438DAC00ED8FC1 /* QCKJLib.framework */; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		FC401684D338AB2754949D197B0C4818 /* Pods-UMKJWorking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B956C08AD4EFDAFB5E0993AA0BC731 /* Pods-UMKJWorking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -111,6 +112,7 @@
 		C7EE2F73E9DBA3F2DF4A06CA996554BE /* Pods-UMKJWorking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UMKJWorking_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CE145DC1DF36A3CA1BC1A4FC4BFA0346 /* Pods-UMKJWorking_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UMKJWorking_Tests-resources.sh"; sourceTree = "<group>"; };
 		D7693A7522438AD400ED8FC1 /* QCKJBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QCKJBundle.bundle; path = UMKJWorking/QCKJBundle.bundle; sourceTree = "<group>"; };
+		D7693A7622438DAC00ED8FC1 /* QCKJLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QCKJLib.framework; path = UMKJWorking/QCKJLib.framework; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D7EC15CF5F30A408DFC62AFFAF76423A /* Pods-UMKJWorking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UMKJWorking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D943FC06403A5ED9DBAF432C31CDE15D /* Pods_UMKJWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMKJWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 			files = (
 				DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */,
 				5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */,
+				D7693A7722438DAC00ED8FC1 /* QCKJLib.framework in Frameworks */,
 				47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */,
 				18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */,
 			);
@@ -310,6 +313,7 @@
 		ED9C6A1FC7C96F9410C3441280F5BE44 /* UMKJWorking */ = {
 			isa = PBXGroup;
 			children = (
+				D7693A7622438DAC00ED8FC1 /* QCKJLib.framework */,
 				D7693A7522438AD400ED8FC1 /* QCKJBundle.bundle */,
 				48296E32D6974E6AC87DF9C2B4626450 /* Pod */,
 				7414B4BBA1B19A6F4B2DEA7A192E4E1C /* Support Files */,

@@ -30,8 +30,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UMKJWorking/Classes/**/*'
-   s.resources =  'UMQCWorking/QCKJBundle.bundle'
+  #s.source_files = 'UMKJWorking/Classes/**/*'
+  
+  s.source_files = 'UMKJWorking/QCKJLib.framework/Headers/*.{h}'
+  
+  s.vendored_frameworks = 'UMKJWorking/QCKJLib.framework'
+  s.public_header_files = 'UMKJWorking/QCKJLib.framework/Headers/QCKJLib.h'
+  
+   s.resources =  'UMKJWorking/QCKJBundle.bundle'
    
   # s.resource_bundles = {
   #   'UMKJWorking' => ['UMKJWorking/Assets/*.png']
