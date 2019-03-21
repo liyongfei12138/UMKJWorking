@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMKJWorking'
-  s.version          = '1.0.1'
+  s.version          = '1.0.8'
   s.summary          = 'just a demo'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,20 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
  
-  s.source_files = 'UMKJWorking/QCKJLib.framework/Headers/*.{h}'
-  s.vendored_frameworks = 'UMKJWorking/QCKJLib.framework'
-  s.public_header_files = 'UMKJWorking/QCKJLib.framework/Headers/QCKJLib.h'
-  s.resources =  'UMKJWorking/QCKJBundle.bundle'
-   
 
+
+  s.resources =  'UMKJWorking/QCKJBundle.bundle'
+  s.vendored_frameworks = 'UMKJWorking/QCKJLib.framework'
+   # s.source_files = 'UMKJWorking/QCKJLib.framework/Headers/*.{h}'
+  # s.public_header_files = 'UMKJWorking/QCKJLib.framework/Headers/QCKJLib.h'
+  
+   s.dependency 'WebViewJavascriptBridge'
+   s.dependency 'AVOSCloud'
 
 
 end
+
+#  s.vendored_frameworks = 'UMKJWorking/QCKJLib.framework'
+# s.source_files = 'UMKJWorking/QCKJLib.framework/Headers/*.{h}'
+# s.public_header_files = 'UMKJWorking/QCKJLib.framework/Headers/QCKJLib.h'
 
