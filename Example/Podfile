@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'UMKJWorking_Example' do
+  pod 'UMKJWorking', :path => '../'
+
+  target 'UMKJWorking_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
