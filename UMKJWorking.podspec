@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UMKJWorking'
-  s.version          = '0.2.0'
+  s.version          = '1.0.0'
   s.summary          = 'just a demo'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
- jusr a demo
+           jusr a demo
                        DESC
 
   s.homepage         = 'https://github.com/liyongfei12138/UMKJWorking'
@@ -26,27 +26,16 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liyongfei12138' => 'lixin@uqian.com' }
   s.source           = { :git => 'https://github.com/liyongfei12138/UMKJWorking.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+ 
   s.ios.deployment_target = '10.0'
 
-  #s.source_files = 'UMKJWorking/Classes/**/*'
-  
+ 
   s.source_files = 'UMKJWorking/QCKJLib.framework/Headers/*.{h}'
-  
   s.vendored_frameworks = 'UMKJWorking/QCKJLib.framework'
   s.public_header_files = 'UMKJWorking/QCKJLib.framework/Headers/QCKJLib.h'
-  
-   s.resources =  'UMKJWorking/QCKJBundle.bundle'
+  s.resources =  'UMKJWorking/QCKJBundle.bundle'
    
-  # s.resource_bundles = {
-  #   'UMKJWorking' => ['UMKJWorking/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
   s.dependency 'WebViewJavascriptBridge'
   s.dependency 'AVOSCloud'
 
