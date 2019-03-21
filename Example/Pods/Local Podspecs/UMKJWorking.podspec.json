@@ -1,0 +1,22 @@
+{
+  "name": "UMKJWorking",
+  "version": "0.1.0",
+  "summary": "A short description of UMKJWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liyongfei12138/UMKJWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyongfei12138": "lixin@uqian.com"
+  },
+  "source": {
+    "git": "https://github.com/liyongfei12138/UMKJWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UMKJWorking/Classes/**/*"
+}

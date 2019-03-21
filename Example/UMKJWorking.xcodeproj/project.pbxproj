@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12A0FE6D43F38F24FB4E2CDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		12A0FE6D43F38F24FB4E2CDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2587A8585D60D6DE18F6F12F /* Pods_UMKJWorking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMKJWorking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38824135DCCA06FE2BFE09C2 /* Pods-UMKJWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMKJWorking_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMKJWorking_Tests/Pods-UMKJWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UMKJWorking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMKJWorking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +60,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7253F880903C25FDC580DA8C /* UMKJWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UMKJWorking.podspec; path = ../UMKJWorking.podspec; sourceTree = "<group>"; };
+		7253F880903C25FDC580DA8C /* UMKJWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UMKJWorking.podspec; path = ../UMKJWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AB75AC8A951940B09538438 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9AB75AC8A951940B09538438 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA73F971AAA1F73DB0ED05A8 /* Pods-UMKJWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMKJWorking_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMKJWorking_Example/Pods-UMKJWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CDC11E97DB54186A7A7A1D5E /* Pods_UMKJWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMKJWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55A7CE55F74591840421F23 /* Pods-UMKJWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMKJWorking_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMKJWorking_Example/Pods-UMKJWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };

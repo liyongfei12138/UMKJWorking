@@ -1,0 +1,6 @@
+framework module UMKJWorking {
+  umbrella header "UMKJWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
